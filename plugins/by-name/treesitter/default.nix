@@ -6,7 +6,7 @@
   ...
 }:
 with lib;
-helpers.neovim-plugin.mkNeovimPlugin {
+helpers.neovim-plugin.mkNeovimPlugin config {
   name = "treesitter";
   originalName = "nvim-treesitter";
   luaName = "nvim-treesitter.configs";
